@@ -9,7 +9,6 @@ Plug 'mbbill/undotree' "Creates an undo tree
 Plug 'preservim/nerdtree' "File browser inside vim
 Plug 'godlygeek/tabular' "Auto formatting
 Plug 'plasticboy/vim-markdown' "Markdown syntax highlighting
-Plug 'wakatime/vim-wakatime' "Wakatime tracker
 Plug 'ryanoasis/vim-devicons' "Cool icons for nerd tree
 Plug 'Xuyuanp/nerdtree-git-plugin' "nerd tree customization
 Plug '907th/vim-auto-save' "auto saves files as you edit
@@ -71,7 +70,7 @@ call plug#end()
   map <Leader>e $
 
 " Persistent_undo
-	set undodir=~/.vim/undodir"
+	set undodir=~/.vim/backup"
 	set undofile
 	let g:undotree_WindowLayout = 2
 
